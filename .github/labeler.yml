@@ -1,0 +1,36 @@
+idea:
+  - '(Idea|idea|Wonder|wonder)'
+
+critical:
+    - '(Critical|critical|Urgent|urgent)'
+
+bug:
+  - '(Bug|bug|Error|error|Issue|issue)'
+
+documentation:
+    - '(Doc|doc|Docs|docs|Documentation|documentation|Document|document)'
+
+duplicate:
+  - '(Duplicate|duplicate|Dupe|dupe|Duplicated|duplicated)'
+
+enhancement:
+    - '(Create|create|Enhance|enhance|Enhancement|enhancement|New|new|Plan|plan|Performance|performance)'
+    
+help wanted:
+  - '(Help|help|Feedback|feedback|Attention|attention)'
+
+Improvement:
+    - '(Better|better|Improve|imporve|Improving|improving)'
+
+invalid:
+  - '(Invalid|invalid)'
+
+needs info:
+    - '(More info|more info|Info needed|info needed|Needing info|needing info|Info|info)'
+
+question:
+    - '(Ask|ask|Question|question|Help|help|Will|will|How|how)'
+
+wontfix:
+    - '(wont be worked on|Wont be worked on|Wont do|wont do|Wont fix|wont fix|Irrelevant|irrelevant|Not needed|not needed)'
+    
