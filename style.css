@@ -1,3 +1,7 @@
-.header header1 {
-    color: blue;
+header {
+    color:black;
+}
+
+header h1 {
+    color:whitesmoke;
 }
