@@ -1,17 +1,17 @@
 idea:
-  - '(Idea|idea|Wonder|wonder)'
+  - '(Idea|idea|Wonder|wonder|Suggestion|suggestion)'
 
 critical:
-    - '(Critical|critical|Urgent|urgent)'
+    - '(Critical|critical|Urgent|urgent|Important|important)'
 
 bug:
-  - '(Bug|bug|Error|error|Issue|issue)'
+  - '(Bug|bug|Error|error|Issue|issue|problem|Problem)'
 
 documentation:
     - '(Doc|doc|Docs|docs|Documentation|documentation|Document|document)'
 
 duplicate:
-  - '(Duplicate|duplicate|Dupe|dupe|Duplicated|duplicated)'
+  - '(Duplicate|duplicate|Dupe|dupe|Duplicated|duplicated|Copy|copy)'
 
 enhancement:
     - '(Create|create|Enhance|enhance|Enhancement|enhancement|New|new|Plan|plan|Performance|performance)'
