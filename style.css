@@ -6,16 +6,33 @@ header h1 {
     color:whitesmoke;
 }
 
+body {
+    display: grid;
+    row-gap: 0px;
+    column-gap: 0px;
+
+}
+
 .MessageViewer {
     padding: 0%;
     margin: 0%;
     position: relative;
     left: auto;
     transform: translateX(-100%);
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+
 }
 
 .SubTreeNavigator {
     background:black;
     width: 20%;
     height: 100%;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end:2px;
 }
