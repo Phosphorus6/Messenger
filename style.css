@@ -1,9 +1,11 @@
 header {
-    color:black;
+    color:whitesmoke;
+    background-color: black;
 }
 
 header h1 {
     color:whitesmoke;
+    background-color: black;
 }
 
 body {
