@@ -43,3 +43,7 @@ body {
     grid-column-start: 1;
     grid-column-end:2px;
 }
+
+.TextBoxInput {
+    border-radius: 25px;
+}
