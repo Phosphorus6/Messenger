@@ -15,21 +15,17 @@
         <div class="Action Bar">
             <input type="image" src="icons/account.png" width="20" height="20" />
             <input type="image" src="icons/Add Server.png" width="20" height="20">
-
-            <form action="/action_page.php">
-                <label for="fname">First name:</label>
-                <input type="text" id="fname" name="fname"><br><br>
-                <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname"><br><br>
-                <input type="submit" value="Submit">
-            </form>
-
         </div>
 
         <div class="MessagesViewer">
             <div class="massages"></div>
             <div class="TypeBox">
-                <input type="text" id="TypeBoxInput" name="TypeBoxInput">
+                
+            <form action="submit.js">
+                <label for="fname">Message:</label>
+                <input type="text" id="TypeBoxInput" name="TypeBoxInput"><br><br>
+                <input type="submit" value="Submit">
+            </form>
             </div>
         </div>
     </body>
