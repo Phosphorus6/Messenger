@@ -16,4 +16,6 @@ header h1 {
 
 .SubTreeNavigator {
     background:black;
+    width: 20%;
+    height: 100%;
 }
