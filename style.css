@@ -5,3 +5,11 @@ header {
 header h1 {
     color:whitesmoke;
 }
+
+.MessageViewer {
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    left: auto;
+    transform: translateX(-100%);
+}
