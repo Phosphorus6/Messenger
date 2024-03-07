@@ -23,6 +23,8 @@ body {
     grid-row-end: 3;
     grid-column-start: 3;
     grid-column-end: 4;
+    width: 0.64%;
+    height: 70%;
 
 
 }
