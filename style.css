@@ -13,3 +13,7 @@ header h1 {
     left: auto;
     transform: translateX(-100%);
 }
+
+.SubTreeNavigator {
+    background:black;
+}
