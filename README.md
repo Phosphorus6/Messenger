@@ -1,7 +1,7 @@
 # Messenger
 This will be a mini python program for making a messaging app to use at school or at work.
 
-#requirements
+**#requirements**
 Google Chrome above version 57.0
 Microsoft Edge above version 16.0
 Firefox above version 52.0
