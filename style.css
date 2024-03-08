@@ -58,9 +58,6 @@ body {
     top: 0;
     overflow-x: hidden;
     padding-top: 20px;
-    border: 2px;
-    border-radius: 2px;
-    border-color: black;
 }
 
 /* Control the left side */
