@@ -69,7 +69,7 @@ body {
 }
 
 /* Control the right side */
-.splitright {
+.right {
     right: 0;
     border: 2px;
     border-radius: 2px;
