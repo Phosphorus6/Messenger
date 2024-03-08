@@ -68,6 +68,7 @@ body {
 /* Control the right side */
 .right {
     right: 0;
+    border: 2px;
 }
 
 /* If you want the content centered horizontally and vertically */
