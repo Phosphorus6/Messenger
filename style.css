@@ -59,18 +59,21 @@ body {
     overflow-x: hidden;
     padding-top: 20px;
     border: 2px;
+    border-radius: 2px;
 }
 
 /* Control the left side */
 .left {
     left: 0;
     border: 2px;
+    border-radius: 2px;
 }
 
 /* Control the right side */
 .right {
     right: 0;
     border: 2px;
+    border-radius: 2px;
 }
 
 /* If you want the content centered horizontally and vertically */
