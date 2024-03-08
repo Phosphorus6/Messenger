@@ -1,10 +1,8 @@
 header {
-    color:whitesmoke;
     background-color: black;
 }
 
 head {
-    color:whitesmoke;
     background-color: black;
 }
 
@@ -12,7 +10,6 @@ body {
     display: grid;
     row-gap: 0px;
     column-gap: 0px;
-    background-color: whitesmoke;
 
 }
 
@@ -28,6 +25,7 @@ body {
     grid-column-end: 4;
     width: 0.64%;
     height: 70%;
+    background-color: whitesmoke;
 
 
 }
