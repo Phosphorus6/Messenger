@@ -1,5 +1,5 @@
 # Messenger
-This will be a mini python program for making a messaging app to use at school or at work.
+This is a currently active project that aims to provide a messaging service that can be accessed via the associated github pages. the program acts similar to reddit, aloowing for creation of 'subservers' that people talk on, and that can be monitored remotely too, making the server easy to access and change settings on
 
 # **alert**
 most of the currently mentioned features are being implemented, and will be provided in a future update.
@@ -12,8 +12,19 @@ most of the currently mentioned features are being implemented, and will be prov
 - Safari above version 10.0
 - Opera or Opera GX above version 44
 
+if you are using the python server, please make sure you are using the following libraries and versions:
+- python 3.7.8 or above
+- tkinter
+- socket
+- requests
+- json
+- os
+
 # User Guide
-to set up the server, please run the server.py file or any other file labeled as server. then, connect using an ip address or preset domain name with the github pages, and you can talk on that server. 
+to set up the server, please first make sure that the requirements have been met. there are different instructions based on what server file you are running.
+
+**Python**: 
+first, git the directory and cd into it. then, run the python server. it will connect to a 
 
 to set up some settings, go through the created ui and select these options. the options are:
 - logging: this will keep logs of what people say in their chat rooms. by default, this will be turned on.
