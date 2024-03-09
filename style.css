@@ -68,6 +68,29 @@ body {
     padding-top: 20px;
 }
 
+.h {
+    height: 15%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 50px;
+}
+
+.textboxbackground {
+    z-index: 17;
+    margin-left: 25%;
+    margin: 25;
+    width: 50%;
+    font-size: max(16px, 1em);
+    font-family: inherit;
+    padding: 0.25em;
+    background-color: #fff;
+    border: 2px solid var(--input-border);
+    border-radius: 4px;
+}
+
 /* Control the left side */
 .left {
     left: -.5%;
@@ -98,8 +121,9 @@ body {
 .btn {
     background-color: DodgerBlue;
     border: none;
+    margin-right: -12%;
     color: white;
-    padding: 12px 16px;
+    padding: 10px 10px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 25%;
