@@ -22,10 +22,11 @@
 
                     </div>
 
-                    <div class="TypeBox">
+                    <div id="chat" class="TypeBox">
+                        <div id="chat-messages"></div>
                         <div class="textboxbackground">
-                            <form action="submit.js">
-                                <input type="text" class="inputText" id="TypeBoxInput" placeholder="Type Message here" name="TypeBoxInput">
+                            <form id="chat-form" method="post">
+                                <input type="text" class="inputText" id="TypeBoxInput" placeholder="Type Message here" name="message" maxlength="500" autoComplete="off">
                                 <button type="submit" class="btn" value="Submit"><i class="fa fa-send"></i></button>
                             </form>
                         </div>
@@ -47,4 +48,5 @@
 
     </body>
 </html>
+<script type="text/javascript" src="/js/main.js"></script>
 <link rel="stylesheet" href="style.css"> 
