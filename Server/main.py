@@ -1,7 +1,10 @@
 import tkinter as tk
 import socket
+import requests
+import json
+import os
 
-
+#tkinter code is here
 window = tk.Tk()
 window.geometry()
 window.title("Python-Messager Info")
@@ -53,3 +56,18 @@ Subserver_deletion = tk.Button(settings_frame, height=3, width=20, text="Subserv
 reload = tk.Button(settings_frame, height=3, width=20, text="Reload")
 
 back_settings = tk.Button(settings_frame, width=20,height=3, text="Back", command=lambda: [settings_frame.pack_forget(), Main_Frame.pack()])
+
+
+#Log Deletion Frame
+host = requests.get('https://api.ipify.org').content.decode('utf8')
+if f"{range(0, 226).{0,226}.{0,226}.{0,226}}" in host :
+    print("Valid IP Address! we will bedin setting up the server.")
+    server = 
+else:
+    print("Error 1:IP address is invalid")
+    json.dump(open(f"{os.getcwd()}\\logs\\errors.json", "r"))
+    os._exit()
+
+
+while True:
+    window.update()
