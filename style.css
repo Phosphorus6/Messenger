@@ -47,7 +47,8 @@ body {
 
 .TypeBoxInput {
     z-index: 17;
-    border-radius: 25px;
+    border-radius: 2px;
+    border-color: whitesmoke;
     border-style: dashed;
 }
 
