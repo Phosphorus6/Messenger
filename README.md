@@ -12,6 +12,13 @@ most of the currently mentioned features are being implemented, and will be prov
 - Safari above version 10.0
 - Opera or Opera GX above version 44
 
+if you are using the python server, please make sure you are using the following libraries and versions:
+- python 3.7.8 or above
+- tkinter
+- socket
+- requests
+- json
+
 # User Guide
 to set up the server, please run the server.py file or any other file labeled as server. then, connect using an ip address or preset domain name with the github pages, and you can talk on that server. 
 
