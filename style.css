@@ -63,9 +63,9 @@ body {
 
 /* Control the left side */
 .left {
-    left: -2;
-    border: 1px;
-    border-radius: 1px;
+    left: -1;
+    border: 2px;
+    border-radius: 2px;
     border-color: whitesmoke;
     border-style: solid;
 }
