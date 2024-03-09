@@ -66,7 +66,7 @@ body {
     left: 0;
     border: 2px;
     border-radius: 2px;
-    border-color: black;
+    border-color: whitesmoke;
     border-style: solid;
 }
 
@@ -76,7 +76,7 @@ body {
     border: 2px;
     border-radius: 2px;
     border-style: solid;
-    border-color: black;
+    border-color: whitesmoke;
 }
 
 /* If you want the content centered horizontally and vertically */
