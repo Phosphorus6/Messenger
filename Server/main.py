@@ -63,7 +63,7 @@ back_settings = tk.Button(settings_frame, width=20,height=3, text="Back", comman
 
 #Log Deletion Frame
 host = requests.get('https://api.ipify.org').content.decode('utf8')
-if f"{range(0, 226).{0,226}.{0,226}.{0,226}}" in host :
+if f"{range(0, 226)}.{range(0,226)}.{range(0,226)}.{range(0,226)}" in host :
     print("Valid IP Address! we will bedin setting up the server.")
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server.bind((host, 80))

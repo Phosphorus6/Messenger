@@ -25,11 +25,27 @@ import json
 
 
 #key for what kind of communication the client wants to have:
-#0: the client wants to connect to the server for the first time. this will make the server echo the response, and will thus cause the 
+#0: the client wants to connect to the server for the first time. this will make the server echo the response
+#1: the client has previously connected to the server, and will thus need a port to communicate with the server
+#2: the client wants to obtain the subserver list, and will provide it's uid in a later connection
+#3: the client needs the content inside of a subserver, and will need to obtain the records of the subserver.
+
+def generate_key():
+    return random.randbytes(32)
+
+
 def communicate(connection, address):
-    connection.recv("")
+    connection_type = connection.recv("1")
+    match connection_type:
+        case b"0":
+            new_key = generate_key()
+            connection.send(new_key)
+            private_key = connection.recv()
 
-
-def fill_port_to_user():
-    port_to_user = json.dump(open("port_to_user.json", "r+"))
+        case b"1":
+            pass
+        case b"2":
+            pass
+        case b"3":
+            pass
     
