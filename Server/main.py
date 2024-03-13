@@ -3,6 +3,9 @@ import socket
 import requests
 import json
 import os
+import threading
+import functions
+import random
 
 #tkinter code is here
 window = tk.Tk()
@@ -62,7 +65,8 @@ back_settings = tk.Button(settings_frame, width=20,height=3, text="Back", comman
 host = requests.get('https://api.ipify.org').content.decode('utf8')
 if f"{range(0, 226).{0,226}.{0,226}.{0,226}}" in host :
     print("Valid IP Address! we will bedin setting up the server.")
-    server = 
+    server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    server.bind((host, 80))
 else:
     print("Error 1:IP address is invalid")
     json.dump(open(f"{os.getcwd()}\\logs\\errors.json", "r"))
@@ -71,3 +75,4 @@ else:
 
 while True:
     window.update()
+    server.listen()
