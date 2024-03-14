@@ -1,51 +1,34 @@
-import socket
+#the first section will be the section that you will run for multiple access points. to enable this, please select reset server, select keep logs, then enable multiple access points in there
+
 import random
 import json
+import random
+import socket
 
-#the program will first start with 256 bit encryption, making sure that the initial setup messages for an enigma machine cipher are not readable to any network administrators.
-#then, after it has set up the requirements for syncing 2 engima machines, the client and server will first encrypt some me
-
-#so this is how the communication algorithm goes along:
-
-#the client contacts the server on a reserved port asking it for a public key
-
-#the server gives the public key to the client, which uses it to encrypt a private key and send that to the server on the same port with the same connection
-
-#after the server recieves this key and decrypts it, it will send the port number to the client encrypted in it's private key, and will then close the conversation
-
-#then, the client will contact the server using the private key on the specified port. if the client reaches the server within one minute, then the server will reserve that port for that specific client.
-#if the client does not contact the server within the one minute, then the serve will open the port up for other clients, and will wipe the private key it has stored inside it.
-
-#now then, let's see how the client obtains the subservers it has.
-
-#the client will check if it has a unique id inside it's local storage. if it does, it will send it to the server, which will then read a json file and return the subservers it is inside of
-
-#if the user clicks on a subserver, they will then send a message to the server asking for the last x number of texts inside the json file. once they recieve it, they will display it inside the client.
-
-
-
-#key for what kind of communication the client wants to have:
-#0: the client wants to connect to the server for the first time. this will make the server echo the response
-#1: the client has previously connected to the server, and will thus need a port to communicate with the server
-#2: the client wants to obtain the subserver list, and will provide it's uid in a later connection
-#3: the client needs the content inside of a subserver, and will need to obtain the records of the subserver.
-
-def generate_key():
-    return random.randbytes(32)
-
-
-def communicate(connection, address):
-    connection_type = connection.recv("1")
-    match connection_type:
-        case b"0":
-            new_key = generate_key()
-            connection.send(new_key)
-            private_key = connection.recv()
-
-        case b"1":
+class Server:
+    def __init__(Main_Server, Logs_Server_IP) -> None:
+        if Main_Server == ("127.0.0.1" or 'localhost' or 'self'):
             pass
-        case b"2":
+        else:
             pass
-        case b"3":
+
+        if Logs_Server_IP == ('127.0.0.1' or 'localhost' or 'self'):
             pass
-    
+        else:
+            pass
+    def Main_Server_Setup(Access_Port):
+        return socket.socket(socket.AF_INET, socket.SOCK_STREAM).bind(('localhost', Access_Port))
+
+
+class Nodes:
+    def __init__(Access_Server, Access_Port, Server_Address, self):
+        self.Server_Address = Server_Address
+        self.Client_Listener = socket.socket(socket.AF_INET, socket.SOCK_STREAM).bind("127.0.0.1", Access_Port)
+        
+        
+        
+
+
+
+
+#this code will be run if this is the only access point for the server
