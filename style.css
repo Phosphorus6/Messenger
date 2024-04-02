@@ -109,7 +109,7 @@ body {
     z-index: 17;
     margin-left: 25%;
     margin: 25;
-    width: 50%;
+    width: 50px;
     font-size: max(16px, 1em);
     font-family: inherit;
     padding: 0.25em;
