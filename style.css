@@ -35,9 +35,9 @@ body {
 
 .messageYou {
     background-color: whitesmoke;
-    width: 6%;
+    width: 230px;
     display: table;
-    margin-left: 2%;
+    margin-left: 6px;
     height: 10px;
     color: black;
     font-family: serif;
@@ -45,19 +45,25 @@ body {
     border: 4%;
     text-align: center;
     border-radius: 5px;
+    font-size: 16.4px;
+    
 }
 
 .messageThem {
     background-color: whitesmoke;
-    width: 6%;
+    width: 200px;
     height: 5px;
     display: table;
-    margin-left: 70%;
+    float:right;
+    margin-right: 6px;
     color:black;
     white-space: nowrap;
     border: 3%;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     border-radius: 6px;
+    align-self: right;
+    
 }
 
 .SubTreeNavigator {
@@ -98,7 +104,7 @@ body {
 .h {
     height: 15%;
     width: 100%;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     top: 0;
     overflow-x: hidden;
@@ -108,7 +114,8 @@ body {
 .textboxbackground {
     z-index: 17;
     margin-left: 25%;
-    margin: 25;
+    margin-left: 25px;
+    margin-bottom: 100px;
     width: 300px;
     font-size: max(16px, 1em);
     font-family: inherit;
