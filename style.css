@@ -107,7 +107,8 @@ body {
     float: center;
     margin-top: 80vh;
     margin-left: 35%;
-    width: 226px;
+    width: 326px;
+    <!--Used to be 236-->
     font-size: max(16px, 1em);
     font-family: inherit;
     padding-right: 3px;
